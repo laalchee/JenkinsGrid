@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="22401" started-at="2016-08-07T11:21:02Z" finished-at="2016-08-07T11:21:25Z">
+    <groups>
+    </groups>
+    <test name="FF" duration-ms="12082" started-at="2016-08-07T11:21:02Z" finished-at="2016-08-07T11:21:14Z">
+      <class name="demo.MavenDemo">
+        <test-method status="PASS" signature="openBrowser(org.testng.xml.XmlTest)[pri:0, instance:demo.MavenDemo@44ec30]" name="openBrowser" duration-ms="12009" started-at="2016-08-07T16:51:02Z" finished-at="2016-08-07T16:51:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "FF" verbose:1[parameters:browser=>firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=demo.MavenDemo]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- demo.MavenDemo -->
+    </test> <!-- FF -->
+    <test name="Chrome" duration-ms="10212" started-at="2016-08-07T11:21:15Z" finished-at="2016-08-07T11:21:25Z">
+      <class name="demo.MavenDemo">
+        <test-method status="PASS" signature="openBrowser(org.testng.xml.XmlTest)[pri:0, instance:demo.MavenDemo@14cbc58]" name="openBrowser" duration-ms="10201" started-at="2016-08-07T16:51:15Z" finished-at="2016-08-07T16:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Chrome" verbose:1[parameters:browser=>chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=demo.MavenDemo]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- demo.MavenDemo -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Default Suite -->
+</testng-results>

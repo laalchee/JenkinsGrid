@@ -1,0 +1,15 @@
+<suite name="Default Suite">
+    <parameter name="hub" value="http://192.168.21.22:4444/wd/hub"/>
+    <test name="FF">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="demo.MavenDemo"/>
+        </classes>
+    </test> <!-- SeleniumGridDemo -->
+    <test name="Chrome">
+        <classes>
+            <parameter name="browser" value="chrome"/>
+            <class name="demo.MavenDemo"/>
+        </classes>
+    </test> 
+</suite> 
